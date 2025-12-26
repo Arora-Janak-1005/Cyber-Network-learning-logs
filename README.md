@@ -4,7 +4,7 @@ This repo documents my ongoing learning in networking and cybersecurity. I start
 - Routing Protocols
 - TCP/IP internals
 - Web Pentesting
-- Linux Networking tool
+- Linux & Networking tool
 - OWASP top 10
 ## Structure
 - /concepts – theory explained simply
