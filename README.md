@@ -3,6 +3,7 @@ This repo documents my ongoing learning in networking and cybersecurity. I start
 ## Current Focusing Topics:
 - Routing Protocols
 - TCP/IP internals
+- Web Pentesting
 - Linux Networking tool
 - OWASP top 10
 ## Structure
