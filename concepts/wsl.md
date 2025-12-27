@@ -7,8 +7,23 @@ wsl 2 or windows subsystem for linux is a powerful virtualization software for i
 
 ## WSL 2 VS WSL
 ## More things i learnt during this time:
- # Spiderfoot:
- - this is an osint tool that can be installed on the command line and then hosted on the localhost to run, you can enter a name and 
+## Spiderfoot:
+- this is an osint tool that can be installed on the command line and then hosted on the localhost to run, you can enter a name and 
+- kali tweaks
+- ipconfig on ubuntu
+- truthfinder(also an osint tool)
+- incogni(delete your info online)
+- kali-win-kex (opens a interface of kali linux)
+- something also known as wslg i.e. the gui version of the wsl
+
+
+#WSL COMMANDS:
+- --list --verbose
+- --shutdown
+- --trminte name
+- --set-default
+- --status
+- --unregister name
 
 
 ## References:
