@@ -6,6 +6,7 @@
 - what it does is that is different than a normal scan is that a normal scan uses tcp handshake , in this scan when the client sends a syn the server replies syn,ack and then then clients resets it.
 - if we recieve syn,ack then the port is open ,if rst then closed if none then firewall.
 - cristmas scan -sX
+- -sN for none packets or empty packets
 ## mac spoofing for evasion:
 - --spoof-mac 0(rand)
 - --spoof-mac dell
@@ -18,3 +19,4 @@
 - -f for fragment
 ## zombie scan:
 - use vulnerable machines in a network to bypass the firewall (nmap from a vuln machine) but to do that we must first find a vulnerable machine in the network.
+- sudo nmap -sI idleip targetip port 
