@@ -8,3 +8,6 @@
 - show options(includes the info about the target the  interface,etc)
 - set target options
 - exploit command to run
+
+
+more materrial to be posted soon!

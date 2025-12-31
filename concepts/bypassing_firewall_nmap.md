@@ -20,3 +20,7 @@
 ## zombie scan:
 - use vulnerable machines in a network to bypass the firewall (nmap from a vuln machine) but to do that we must first find a vulnerable machine in the network.
 - sudo nmap -sI idleip targetip port 
+## Source Port manipulation:
+- while doing pentesting we often manipulate the port numbers because many firewalls allow certain ports packets to access the nnetwork for eg. port 53 i.e. the dns
+-  sudo nmap --source-port 53 ip -p targetport
+this creates a dns request or reply to your target ip
