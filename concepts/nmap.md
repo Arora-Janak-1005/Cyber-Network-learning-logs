@@ -20,6 +20,7 @@
 - -O for operating system
 - --osscan-guess
 - -6 for  ipv6
+- -A for aggressive scan (all of the info)
 - 
 
 # if we have firewall up to evade firewall we can use ARP
@@ -28,3 +29,4 @@
 ## More things i learnt during this session:
 - hop on the router stand for host of/on the point
 - passive os fingerprinting and banner grabbing - (linux -ttl =64, window size=5840) (windows -ttl =128, window size=8192) (cisco router -ttl =255, window size=4128)
+- ftp has 2 types of login - anonymous login and authenticated login
