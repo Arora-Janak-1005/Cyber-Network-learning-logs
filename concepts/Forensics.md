@@ -27,3 +27,20 @@
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
 2. Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012).
 3. Nina Godbole, Sunit Belapure, Cyber Security, Wiley (2011)
+
+
+## Lab 2:
+tools learnt today: dcfldd,dc3dd,dd,guymager
+ofsz=25MB => split it into file size
+ ofs=z_split1.00 naming of splits...it automatically increase number of segments after the set amount.
+concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
+
+- hash = sha1 0r md5 || hofs you can calculate the hashes of each split.
+- wipe => this command wipes or writes the whole destination hard drive so that we can create a forensics sterile hdd.
+- you can also give patterns pat=000.
+- you can do device to device as well
+# dd tool:
+- it does not show but it is doing its job, used in the field as a professional tool.
+- if =/dev/sdb of=mbr55(master boot record) bs=512 count=1 conv=noerror,sync
+- noerror to continue reading, dd always stops at bad sector so it is important
+- sync simple insert 0 and move forward
