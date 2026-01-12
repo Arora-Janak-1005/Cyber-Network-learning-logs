@@ -1,0 +1,16 @@
+## PE Code injection:
+- lorde pe to add cave.
+- vmi32 to validate or actually read them or accept.
+- module entry point is the point in which the orignal app is started from.
+- go to memory map to find the added code cave represented by : 'M'.
+- copy to executable and then selectin and then save.
+- save after you change the bits to 0.
+- then manipulate to the next step.
+- parent handle is 0
+- body of dialog box
+- caption.
+- type of dialog box -0 here most basic one
+- call the dialog box 
+- binary edit.
+- if you point wrongly to 0s then it will fail , or terminate at 0s , if nops then they might reach by no operation rules.
+- 
