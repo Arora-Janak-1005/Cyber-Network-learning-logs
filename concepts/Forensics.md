@@ -64,8 +64,9 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - sync simple insert 0 and move forward
 
 
-## Lecture 2:
-- violent cyber crimes : swatting, doxxing,child porn,cyber stalking.
+### Lecture 2:
+# violent cyber crimes : 
+- swatting, doxxing,child porn,cyber stalking.
 - Swatting:
 
 # Non violent cybercrime:
