@@ -1,8 +1,14 @@
 ## Digital forensics
-# Golden Rules:
+### Golden Rules:
 - You do not change the state of the Machine.
 - Maintain Chain of Custody (report of what you do and that you submit to the court) because you are liable by Lab(scrutanisable) 
-# Lecture 1:
+# *Responder Actions*
+1. Scene stablization: Control the chaos. Tell everyone in the organization to step away fom their keyboards and their devices.
+2. Analyze who all have access to what.
+3. record everything.
+4. Image the main memory(RAM) first , because ongoing processes and attacks, decrypted data that was never saved , N no. of things are possible in the ram and not imaging that first could destroy evidence.
+5. Isolate the risk or keep it alive.
+## Lecture 1:
 - cyber crime varies from jurisdiction to jurisdiction and between jurisdictions so everyone has a different definition.
 - using comp. & net as a integral component of the crime is called cyber crime.
 - Computer espionage: damaging someone's computer either hardware or software.
@@ -23,10 +29,6 @@
 - partition tables (read file structures of FAT32 , ntfs, Xfat)
 - two tools ftk imager(gui tool)(large company FTK), Not yet told
 
-## Refrences :
-1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
-2. Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012).
-3. Nina Godbole, Sunit Belapure, Cyber Security, Wiley (2011)
 
 
 ## Lab 2:
@@ -96,3 +98,9 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - yale university model.
 - configuration of the windows is stored in registry.
 - 
+
+
+## Refrences :
+1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
+2. Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012).
+3. Nina Godbole, Sunit Belapure, Cyber Security, Wiley (2011)
