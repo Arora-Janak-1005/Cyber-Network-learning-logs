@@ -125,7 +125,15 @@ dd --list (command to find out the partitions on a device)
 - crime victims (to whom the crime has actually happened)
 - Victimology
 - jumpers on hdd on scuzy interface was used to set a master slave setting.
+---
+# Chapter 5 of shinder L.D book:
+- any evidence without permission is not admissible in the court.
+- the victim can submit a proper concreat evidence to invoke an investigation.
+- the evidence should be persuadable.
+- we can only check the authenticity via hash check.
+- maintain chain of custody.
 
+---
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
 2. Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012).
