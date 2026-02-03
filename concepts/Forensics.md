@@ -99,6 +99,13 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - configuration of the windows is stored in registry.
 - 
 
+## LAB 3:
+* Command Used For Windows*
+- wmic disdrive list brief
+dd --list (command to find out the partitions on a device)
+- service.msc
+- Add-WindowsCapability -Online -Name OpenSSH.Server
+
 
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
