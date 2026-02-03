@@ -105,7 +105,26 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 dd --list (command to find out the partitions on a device)
 - service.msc
 - Add-WindowsCapability -Online -Name OpenSSH.Server
+## LAB 4:
+- forensic (Feb 2nd, 26)  - 
 
+- tool - foremost
+- garykessler for file extentions and header and footer information
+
+- process :
+- first make a new folder foremost then use the foremost tool to uncomment the required file to find from the image file(pendrive) , then put the command containing the ext, case, size, header, footer.
+- feh *. jpeg to view 
+
+- Tool - Scalpel
+- Tool - Recoverjpeg
+- Tool - bulk-extractor
+- Tool - magicrescue
+
+## LEC 3:
+- Accidental and situational cybercriminals
+- crime victims (to whom the crime has actually happened)
+- Victimology
+- jumpers on hdd on scuzy interface was used to set a master slave setting.
 
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
