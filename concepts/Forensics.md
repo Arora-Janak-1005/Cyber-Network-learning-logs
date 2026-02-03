@@ -1,27 +1,28 @@
-## Digital forensics
-### Golden Rules:
+# Digital forensics
+## Golden Rules:
 - You do not change the state of the Machine.
 - Maintain Chain of Custody (report of what you do and that you submit to the court) because you are liable by Lab(scrutanisable) 
-# *Responder Actions*
+#### *Responder Actions*
 1. Scene stablization: Control the chaos. Tell everyone in the organization to step away fom their keyboards and their devices.
 2. Analyze who all have access to what.
 3. record everything.
 4. Image the main memory(RAM) first , because ongoing processes and attacks, decrypted data that was never saved , N no. of things are possible in the ram and not imaging that first could destroy evidence.
 5. Isolate the risk or keep it alive.
-## Lecture 1:
+---
+### Lecture 1:
 - cyber crime varies from jurisdiction to jurisdiction and between jurisdictions so everyone has a different definition.
 - using comp. & net as a integral component of the crime is called cyber crime.
 - Computer espionage: damaging someone's computer either hardware or software.
 - every org have a CIRT team i.e cybercrime investigation and || team
 - you need to work according to the policy of the organization and the jurisdiction and 
-# Pyramid Scheme:
+### Pyramid Scheme:
 - when you are asked to buy a membership and you are asked to ask other members to join and pay you...so the perpetrator gets more and more money. 
 - these are banned by the law over the network.
 - morris worm : a program created by morris , it expand over the network over many countries .
 - PONZI PYRAMID: double the money in one month.
 - people fall more and more by investing more in this.
 - unregulated deposit schemes act 2019
-
+---
 ## Lab1: 
 - Very fir step is disk imaging - process of copying data from compromised machine bit by bit- because we do not work with orignal disk before the orignal machine is confiscated
 - during a bad sector it is notified and its either skipped or the tool stops at the very step
@@ -30,10 +31,10 @@
 - two tools ftk imager(gui tool)(large company FTK), Not yet told
 
 
-
+---
 ## Lab 2:
 tools learnt today: dcfldd,dc3dd,dd,guymager
-## File system:
+### File system:
 id type:
 07 ntfs
 0b fat
@@ -59,19 +60,20 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - wipe => this command wipes or writes the whole destination hard drive so that we can create a forensics sterile hdd.
 - you can also give patterns pat=000.
 - you can do device to device as well
-# dd tool:
+### dd tool:
 - it does not show but it is doing its job, used in the field as a professional tool.
 - if =/dev/sdb of=mbr55(master boot record) bs=512 count=1 conv=noerror,sync
 - noerror to continue reading, dd always stops at bad sector so it is important
 - sync simple insert 0 and move forward
 
-
-### Lecture 2:
-# violent cyber crimes : 
+---
+===
+## Lecture 2:
+### violent cyber crimes : 
 - swatting, doxxing,child porn,cyber stalking.
 - Swatting:
 
-# Non violent cybercrime:
+### Non violent cybercrime:
 - Cybertrespass: just scanning the network ; an act did without authorization but does not threaten or damage any data.
 
 - using comps to steal information , money, and other valuables is cybertheft.
@@ -97,14 +99,14 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - nielitcyberforensics.in(practice forensics) 
 - yale university model.
 - configuration of the windows is stored in registry.
-- 
-
+---
 ## LAB 3:
 * Command Used For Windows*
 - wmic disdrive list brief
-dd --list (command to find out the partitions on a device)
+#### dd --list (command to find out the partitions on a device)
 - service.msc
 - Add-WindowsCapability -Online -Name OpenSSH.Server
+---
 ## LAB 4:
 - forensic (Feb 2nd, 26)  - 
 
@@ -119,14 +121,14 @@ dd --list (command to find out the partitions on a device)
 - Tool - Recoverjpeg
 - Tool - bulk-extractor
 - Tool - magicrescue
-
+---
 ## LEC 3:
 - Accidental and situational cybercriminals
 - crime victims (to whom the crime has actually happened)
 - Victimology
 - jumpers on hdd on scuzy interface was used to set a master slave setting.
 ---
-# Chapter 5 of shinder L.D book:
+## Chapter 5 of shinder L.D book:
 - any evidence without permission is not admissible in the court.
 - the victim can submit a proper concreat evidence to invoke an investigation.
 - the evidence should be persuadable.
