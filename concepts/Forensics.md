@@ -134,7 +134,7 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - the evidence should be persuadable.
 - we can only check the authenticity via hash check.
 - maintain chain of custody.
-
+- ***write blockers*** both of hardware and software
 ---
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
