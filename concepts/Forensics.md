@@ -136,6 +136,33 @@ concatinate at the destination : "cat z_split1.* | dc3dd of = z_combined"
 - maintain chain of custody.
 - ***write blockers*** both of hardware and software
 ---
+Lab: 
+- tools like foremost and scapel extract ram data from the image, which cases loss of metadata of the files so to defend that tools like sleuthkit and autopsy are used.
+- sleuthkit is a set of binaries.
+- imgstat tells the seize of the file and sector
+-how memory has been laid out in the image. (mmstat) here dos partitioning scheme.
+- gpt and dos partitioning scheme , legacy supports dos, uefi supports gpt.
+- mmstat -i list.
+- ENCASE IS ALSO TOOL LIKE FTK.
+- mmstat -t list (partitioning scheme)
+- mmls(memory list)
+- in the first sector os the harddrive i.e. master boot record.
+- we use a hexeditor to read those first sectors created 
+- aa55 or 55aa is the ending signature of the mbr.
+- volume boot record.
+- every volume has their first sector .
+hardisk ka first sector and volume ke first sector me difference hai then the boot code in tjhe mbr runs to point to the required 
+- data pointed by the partition is
+- cyliinder head and sector (chs) 
+- logical block addresses (lba) offset, which address the data is saved, 
+- sleuthkit shows in decimal not hexadecimal.
+- fsstat -o 8064(offset) <imgfile> 
+- fls -o  offset > to see the content like ftk
+- r/r is regular file, d/d is directories ,* represents deleted files
+- fls -d switch to list deleted files.
+- tsk_recover  -o offset -e <filename> for recovery of the data.
+- testdisk (fs reader)
+---
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
 2. Marcella J. A. and Guillossou F., Cyber Forensics: From Data to Digital Evidence, Wiley (2012).
