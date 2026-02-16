@@ -162,6 +162,8 @@ hardisk ka first sector and volume ke first sector me difference hai then the bo
 - fls -d switch to list deleted files.
 - tsk_recover  -o offset -e <filename> for recovery of the data.
 - testdisk (fs reader)
+- icat command to see the files (read) without recovery, but it doesnt show anything but binaries, so its basically just to check for empty file or not
+
 ---
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
