@@ -163,7 +163,12 @@ hardisk ka first sector and volume ke first sector me difference hai then the bo
 - tsk_recover  -o offset -e <filename> for recovery of the data.
 - testdisk (fs reader)
 - icat command to see the files (read) without recovery, but it doesnt show anything but binaries, so its basically just to check for empty file or not
-
+## LAB 5:
+- testdisk - data recovery utility.
+- testdisk <filname>
+- we can recover deleted stufd in the partition and the advanced sections and undelete.
+- we can also recover the volume and partitions 
+- in analyze you can change the partition logical, physical,etc and then write to recover .
 ---
 ## Refrences :
 1. Shinder L. D., Cross M., Scene of the Cybercrime, Syngress (2008) 2nd ed.
