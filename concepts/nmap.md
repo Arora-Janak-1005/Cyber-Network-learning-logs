@@ -29,7 +29,7 @@
 - we can use switches '-sn ip -PR'
 
 ## Nmap scripts and  NSE:
-- to find these scripts in your kali type : 'ls usr/share/nmap/scripts/'
+- to find these scripts in your kali type : 'ls /usr/share/nmap/scripts/'
 - to update these scripts so that you are using the latest scripts are :'sudo nmap --script-updatedb'
 - to find  specific scripts use pipelined grep
 - to use  these scripts we use:'sudo nmap --script <script name> <ip>
